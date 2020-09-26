@@ -1,154 +1,212 @@
 * {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    font-family: "Roboto";
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 body {
-    width: 100%;
+  width: 100%;
 }
 
 .navbar {
-    width: 100%;
-    height: 60px;
-    background-color: orange;
-    position: fixed;
-    z-index: 100;
+  width: 100%;
+  height: 60px;
+  background-color: orange;
+  position: fixed;
+  z-index: 100;
 }
 
 .svg {
-    width: 100%;
-    height: 35vh;
+  width: 100%;
+  height: 35vh;
 }
 
 .wrapper {
-    width: 100%;
-    min-height: 100vh;
-    padding: 0 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
-    font-size: 70px;
-    text-align: center;
-    margin: 15px 0px;
-    font-family: "Open Sans";
+  font-size: 70px;
+  text-align: center;
+  margin: 15px 0px;
+  font-family: "Open Sans";
 }
 
 .para {
-    font-size: 24px;
-    line-height: 130%;
-    margin: 32px 0px;
+  font-size: 24px;
+  line-height: 130%;
+  margin: 32px 0px;
 }
 
 .heading {
-    font-size: 32px;
-    margin: 16px 0px;
-    text-align: center;
+  font-size: 32px;
+  margin: 16px 0px;
+  text-align: center;
 }
 
 .orange-box {
-    width: 100%;
-    border: 6px solid orange;
-    border-radius: 16px;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  border: 6px solid orange;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .para2 {
-    font-size: 24px;
-    text-align: center;
-    margin: 4px 0px;
+  font-size: 24px;
+  text-align: center;
+  margin: 4px 0px;
 }
 
 .blackBox {
-
-    width: 100%;
-    padding: 16px 8px;
-    margin: 48px 0px;
-    border: 4px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  padding: 16px 8px;
+  margin: 48px 0px;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .titleBox {
-    background-color: #f9e62c;
-    padding: 8px 16px;
-    position: relative;
-    font-family: "Open Sans";
-    top: -20px;
+  background-color: #f9e62c;
+  padding: 8px 16px;
+  position: relative;
+  font-family: "Open Sans";
+  top: -20px;
 }
 
 .module {
-    text-align: center;
-    font-size: 24px;
-    line-height: 130%;
-    margin: 40px 0px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 130%;
+  margin: 40px 0px;
 }
 
 .para3 {
-    font-size: 24px;
-    margin-bottom: 16px;
-    width: 100%;
+  font-size: 24px;
+  margin-bottom: 16px;
+  width: 100%;
 }
 
 .mentor {
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
 }
 
 .image-grid {
-    display: grid;
-    width: 100%;
-    grid-template-columns: auto auto;
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
 }
 
 .team {
-    border: 4px solid #fca05b;
-    border-radius: 16px;
-    width: 125px;
-    height: 125px;
+  border: 4px solid #fca05b;
+  border-radius: 16px;
+  width: 125px;
+  height: 125px;
 }
 
 .partner {
-    width: 125px;
-    height: 125px;
-    border: 4px solid #fca05b;
-    border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  border: 4px solid #fca05b;
+  border-radius: 50%;
 }
 
 .about-box {
-    border: 4px solid #fca05b;
-    border-radius: 16px;
-    width: 70vw;
-    height: 200px;
-    margin: 24px 0px;
+  border: 4px solid #fca05b;
+  border-radius: 16px;
+  width: 70vw;
+  height: 200px;
+  margin: 24px 0px;
 }
 
 footer {
-    width: 100%;
-    padding: 40px 0px;
-    background-color: #fca05b;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  padding: 40px 0px;
+  background-color: #fca05b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .signup {
-    background-color: #fbf2b2;
-    border: none;
-    padding: 16px 36px;
-    border-radius: 8px;
-    font-size: 24px;
+  background-color: #fbf2b2;
+  border: none;
+  padding: 16px 36px;
+  border-radius: 8px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .flex {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .para {
+    font-size: 32px;
+  }
+  .svg {
+    height: 70vh;
+    /* width: 40vw; */
+    margin-left: 10vw;
+  }
+  .heading {
+    font-size: 48px;
+  }
+  .orange-box {
+    width: 30vw;
+    margin-left: 10vw;
+  }
+  .content-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .blackBox {
+    width: 90%;
+  }
+  .right {
+    margin-right: 10%;
+  }
+  .left {
+    margin-left: 10%;
+  }
+  .image-grid {
+    grid-template-columns: auto auto auto auto;
+  }
+  .mentor,
+  .team,
+  .partner {
+    width: 200px;
+    height: 200px;
+  }
+  .layout {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+  }
+  .about-box {
+    width: 40vw;
+  }
+  .signup {
+    margin: 40px 0px;
+  }
 }
