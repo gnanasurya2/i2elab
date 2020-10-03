@@ -14,6 +14,20 @@
   <body>
     <nav class="navbar"></nav>
     <div class="wrapper" style="padding-top: 70px">
+      <div class="carousel">
+        <div class="images">
+          <div class="image" id="b1"></div>
+          <div class="image" id="b2"></div>
+          <div class="image" id="b3"></div>
+          <div class="image" id="b4"></div>
+        </div>
+        <div class="indicators" id="indicators">
+        </div>
+        <button class="arrow Left" onclick="changeSlide(1)">&#10095;</button>
+        <button class="arrow Right" onclick="changeSlide(-1)">&#10096;</button>
+      </div>
+    </div>
+    <div class="wrapper" >
       <h1 class="title">I2E <span style="color: #fce36d">LAB</span></h1>
       <div class="flex">
         <img
@@ -437,4 +451,5 @@
       <button class="signup">Sign up</button>
     </footer>
   </body>
+  <script src="main.js"></script>
 </html>
