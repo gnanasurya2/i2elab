@@ -7,6 +7,7 @@
 
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -152,18 +153,23 @@ footer {
   font-size: 24px;
   cursor: pointer;
 }
+
 .images div {
   display: none;
 }
+
 .image:first-of-type {
   display: block;
 }
+
 #b1 {
   background-color: indigo;
 }
+
 #b2 {
   background-color: goldenrod;
 }
+
 #b3 {
   background-color: olivedrab;
 }
@@ -177,12 +183,13 @@ footer {
   top: calc(100% - 20px);
   left: calc(50% - 60px);
   display: flex;
-  width:fit-content ;
+  width: fit-content;
   flex-direction: row;
 }
+
 .indi {
   width: 10px;
-  height:10px;
+  height: 10px;
   margin-right: 10px;
   margin-left: 10px;
   border-radius: 50%;
@@ -195,11 +202,13 @@ footer {
   height: 100%;
   position: absolute;
 }
+
 .image {
   width: 100%;
   height: 100vh;
   position: absolute;
 }
+
 .arrow {
   position: relative;
   top: calc(50vh - 60px);
@@ -207,95 +216,204 @@ footer {
   height: 100px;
   border-radius: 12px;
   border: none;
-  background-color: rgb(0, 0, 0,0.3);
+  background-color: rgb(0, 0, 0, 0.3);
   font-size: 32px;
-  cursor:pointer;
+  cursor: pointer;
   opacity: 0.4;
   transition: all 0.2s linear;
 }
+
 .Left {
   left: calc(100% - 60px);
 }
+
 .Right {
   left: -50px;
 }
-.arrow:hover{
-  opacity:1;
+
+.arrow:hover {
+  opacity: 1;
+}
+
+
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-right: 8px;
+  transition: all 0.2s linear;
+}
+
+
+.nav a:hover {
+  color: white;
+}
+
+@media screen and (max-width:1200px) {
+  .navWrapper {
+    height: 100vh;
+    width: 80vw;
+    background-color: orange;
+    position: fixed;
+    right: -80vw;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    transition: all 0.4s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav {
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    text-align: center;
+    height: 80%;
+  }
+
+  .hamburger {
+    position: absolute;
+    width: 60px;
+    height: 100%;
+    padding: 8px 0;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  .bar {
+    width: 80%;
+    height: 4px;
+    background-color: white;
+    border-radius: 20px;
+    transition: all 0.3s linear;
+  }
+
+  .bar1 {
+    transform: rotateZ(45deg) translateY(17px);
+  }
+
+  .bar2 {
+    opacity: 0;
+  }
+
+  .bar3 {
+    transform: rotateZ(-45deg) translateY(-17px);
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  .navWrapper {
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+  }
+
+  .nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .flex {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
   }
+
   .para {
     font-size: 32px;
   }
+
   .svg {
     height: 70vh;
     /* width: 40vw; */
     margin-left: 10vw;
   }
+
   .heading {
     font-size: 48px;
   }
+
   .orange-box {
     width: 30vw;
     margin-left: 10vw;
   }
+
   .content-box {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
+
   .blackBox {
     width: 90%;
   }
+
   .right {
     margin-right: 10%;
   }
+
   .left {
     margin-left: 10%;
   }
+
   .image-grid {
     grid-template-columns: auto auto auto auto;
   }
+
   .mentor,
   .team,
   .partner {
     width: 200px;
     height: 200px;
   }
+
   .layout {
     display: flex;
     width: 90%;
     justify-content: space-between;
   }
+
   .about-box {
     width: 40vw;
   }
+
   .signup {
     margin: 40px 0px;
   }
+
   .boxImage {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     border: 10px gold solid;
   }
+
   .bImage {
     width: 100%;
     height: 100%;
     border-radius: 50%;
   }
+
   .dots {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
+
   .dot {
     width: 6px;
     height: 6px;
@@ -304,15 +422,18 @@ footer {
     border-radius: 50%;
     background-color: black;
   }
+
   .num {
     font-size: 56px;
     font-weight: bolder;
     color: gold;
   }
+
   .numTitle {
     font-size: 32px;
     font-weight: bolder;
   }
+
   .cont {
     flex: 1;
     display: flex;
@@ -322,12 +443,14 @@ footer {
     margin-left: 20px;
     margin-right: 20px;
   }
+
   .contentwrapper {
     display: flex;
     flex-direction: row !important;
     justify-content: space-evenly;
     align-items: center;
   }
+
   .reverse {
     flex-direction: column-reverse;
   }

@@ -12,7 +12,23 @@
   </head>
 
   <body>
-    <nav class="navbar"></nav>
+    <nav class="navbar">
+      <div class="hamburger" onclick="menuToggle()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <div class="navWrapper">
+        <div class="nav">
+          <a href="#home">Home</a>
+          <a href="#structure">program structure</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#mentors">Mentors</a>
+          <a href="#teams">Teams</a>
+          <a href="#partners">Partners</a>
+        </div>
+      </div>
+    </nav>
     <div class="wrapper" style="padding-top: 70px">
       <div class="carousel">
         <div class="images">
@@ -21,13 +37,12 @@
           <div class="image" id="b3"></div>
           <div class="image" id="b4"></div>
         </div>
-        <div class="indicators" id="indicators">
-        </div>
+        <div class="indicators" id="indicators"></div>
         <button class="arrow Left" onclick="changeSlide(1)">&#10095;</button>
         <button class="arrow Right" onclick="changeSlide(-1)">&#10096;</button>
       </div>
     </div>
-    <div class="wrapper" >
+    <div class="wrapper" id="home">
       <h1 class="title">I2E <span style="color: #fce36d">LAB</span></h1>
       <div class="flex">
         <img
@@ -74,7 +89,7 @@
         </p>
       </div>
     </div>
-    <div class="wrapper">
+    <div class="wrapper" id="structure">
       <h1 class="heading">
         i2E <span style="color: #fce36d">LAB</span> Program Structure:
       </h1>
@@ -95,7 +110,7 @@
         </div>
       </div>
     </div>
-    <div class="wrapper">
+    <div class="wrapper" id="timeline">
       <h1 class="heading">
         Your Journey at i2E <span style="color: #fce36d">Lab</span>:  5 Modules
         at a glance
@@ -261,7 +276,7 @@
     <div class="wrapper contentwrapper">
       <div class="cont">
         <div class="boxImage">
-          <img src="./images/fbmale.png" alt="fbmale" class="bImage">
+          <img src="./images/fbmale.png" alt="fbmale" class="bImage" />
         </div>
         <div class="dots">
           <div class="dot"></div>
@@ -272,13 +287,16 @@
           <div class="boxContent">
             <h1 class="num">01</h1>
             <h3 class="numTitle">A Good Idea</h3>
-            <p class="numPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iure?</p>
+            <p class="numPara">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+              iure?
+            </p>
           </div>
         </div>
       </div>
       <div class="cont reverse">
         <div class="boxImage">
-          <img src="./images/fbmale.png" alt="fbmale" class="bImage">
+          <img src="./images/fbmale.png" alt="fbmale" class="bImage" />
         </div>
         <div class="dots">
           <div class="dot"></div>
@@ -289,13 +307,16 @@
           <div class="boxContent">
             <h1 class="num">01</h1>
             <h3 class="numTitle">A Good Idea</h3>
-            <p class="numPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iure?</p>
+            <p class="numPara">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+              iure?
+            </p>
           </div>
         </div>
       </div>
       <div class="cont">
         <div class="boxImage">
-          <img src="./images/fbmale.png" alt="fbmale" class="bImage">
+          <img src="./images/fbmale.png" alt="fbmale" class="bImage" />
         </div>
         <div class="dots">
           <div class="dot"></div>
@@ -306,13 +327,16 @@
           <div class="boxContent">
             <h1 class="num">01</h1>
             <h3 class="numTitle">A Good Idea</h3>
-            <p class="numPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iure?</p>
+            <p class="numPara">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+              iure?
+            </p>
           </div>
         </div>
       </div>
       <div class="cont reverse">
         <div class="boxImage">
-          <img src="./images/fbmale.png" alt="fbmale" class="bImage">
+          <img src="./images/fbmale.png" alt="fbmale" class="bImage" />
         </div>
         <div class="dots">
           <div class="dot"></div>
@@ -323,13 +347,16 @@
           <div class="boxContent">
             <h1 class="num">01</h1>
             <h3 class="numTitle">A Good Idea</h3>
-            <p class="numPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iure?</p>
+            <p class="numPara">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+              iure?
+            </p>
           </div>
         </div>
       </div>
       <div class="cont">
         <div class="boxImage">
-          <img src="./images/fbmale.png" alt="fbmale" class="bImage">
+          <img src="./images/fbmale.png" alt="fbmale" class="bImage" />
         </div>
         <div class="dots">
           <div class="dot"></div>
@@ -340,13 +367,16 @@
           <div class="boxContent">
             <h1 class="num">01</h1>
             <h3 class="numTitle">A Good Idea</h3>
-            <p class="numPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iure?</p>
+            <p class="numPara">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+              iure?
+            </p>
           </div>
         </div>
       </div>
       <div class="cont reverse">
         <div class="boxImage">
-          <img src="./images/fbmale.png" alt="fbmale" class="bImage">
+          <img src="./images/fbmale.png" alt="fbmale" class="bImage" />
         </div>
         <div class="dots">
           <div class="dot"></div>
@@ -357,12 +387,15 @@
           <div class="boxContent">
             <h1 class="num">01</h1>
             <h3 class="numTitle">A Good Idea</h3>
-            <p class="numPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iure?</p>
+            <p class="numPara">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+              iure?
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="wrapper">
+    <div class="wrapper" id="mentors">
       <h1 class="heading">Mentors</h1>
       <div class="image-grid">
         <div class="module">
@@ -431,7 +464,7 @@
         </div>
       </div>
     </div>
-    <div class="wrapper">
+    <div class="wrapper" id="teams">
       <h1 class="heading">Teams</h1>
       <div class="image-grid">
         <div class="module">
@@ -468,7 +501,7 @@
         </div>
       </div>
     </div>
-    <div class="wrapper">
+    <div class="wrapper" id="partners">
       <h1 class="heading">Partners</h1>
       <div class="image-grid">
         <div class="module">
