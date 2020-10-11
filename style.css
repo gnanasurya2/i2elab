@@ -379,6 +379,12 @@ footer {
     grid-template-columns: auto auto auto auto;
   }
 
+  .image-grid1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
   .mentor,
   .team,
   .partner {
